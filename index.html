@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Login Page</title>
+</head>
+
+<body>
+  <div class="container" style="margin-top: 20%; ">
+    <form class="login-form" id="login-form">
+      <h1>Login</h1>
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" >
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" >
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div class="social-login">
+            <p>Or login with:</p>
+            <a href="google_login.php" class="google-login-button"><i class="fa-brands fa-google"></i>Google</a>
+            <a href="linkedin_login.php" class="linkedin-login-button">Microsoft</a>
+        </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
